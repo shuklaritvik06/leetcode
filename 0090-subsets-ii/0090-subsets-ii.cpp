@@ -1,29 +1,26 @@
-class Solution {
-public:
-    vector<vector<int>> helper(vector<int> &nums)
+class Solution
 {
-    vector<vector<int>> outer;
-    outer.push_back(vector<int>{});
-    int start = 0;
-    int end = 0;
-    for (int i = 0; i < nums.size(); i++)
+public:
+    void helper(vector<int> &nums, int ind, vector<vector<int>> &result, vector<int> output)
     {
-        start = 0;
-        if (i > 0 && nums[i] == nums[i - 1])
-            start = end + 1;
-        end = outer.size() - 1;
-        int n = outer.size();
-        for (int j = start; j < n; j++)
+        if (ind >= nums.size())
         {
-            vector<int> internal(outer[j].begin(), outer[j].end());
-            internal.push_back(nums[i]);
-            outer.push_back(internal);
+            result.push_back(output);
+            return;
         }
+        output.push_back(nums[ind]);
+        helper(nums, ind + 1, result, output);
+        output.pop_back();
+        while (ind + 1 < nums.size() && nums[ind] == nums[ind + 1])
+            ind += 1;
+        helper(nums, ind + 1, result, output);
     }
-    return outer;
-}
-    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-           sort(nums.begin(), nums.end());
-    return helper(nums); 
+    vector<vector<int>> subsetsWithDup(vector<int> &nums)
+    {
+        vector<vector<int>> result;
+        vector<int> output;
+        sort(nums.begin(), nums.end());
+        helper(nums, 0, result, output);
+        return result;
     }
 };
