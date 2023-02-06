@@ -1,20 +1,28 @@
 class Solution
 {
 public:
+    static vector<vector<int>> helper(vector<vector<int>> res, vector<int> &nums, int index, int nIndex, int size)
+    {
+        if (index == nums.size())
+            return res;
+        if (nIndex < size)
+        {
+            vector<int> internal(res[nIndex].begin(), res[nIndex].end());
+            internal.push_back(nums[index]);
+            res.push_back(internal);
+            return helper(res, nums, index, ++nIndex, size);
+        }
+        else
+        {
+            nIndex = 0;
+            size = res.size();
+            return helper(res, nums, ++index, nIndex, size);
+        }
+    }
     vector<vector<int>> subsets(vector<int> &nums)
     {
         vector<vector<int>> res;
         res.push_back(vector<int>{});
-        for (auto num : nums)
-        {
-            int n = res.size();
-            for (int i = 0; i < n; i++)
-            {
-                vector<int> internal(res[i].begin(), res[i].end());
-                internal.push_back(num);
-                res.push_back(internal);
-            }
-        }
-        return res;
+        return helper(res, nums, 0, 0, res.size());
     }
 };
