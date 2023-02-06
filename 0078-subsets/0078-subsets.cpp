@@ -8,9 +8,11 @@ public:
             ans.push_back(ds);
             return;
         }
-        helper(ind + 1, ans, ds, nums);
         ds.push_back(nums[ind]);
         helper(ind + 1, ans, ds, nums);
+        ds.pop_back();
+        helper(ind + 1, ans, ds, nums);
+
     }
     vector<vector<int>> subsets(vector<int> &nums)
     {
