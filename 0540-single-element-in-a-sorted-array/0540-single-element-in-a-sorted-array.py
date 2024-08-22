@@ -5,7 +5,7 @@ class Solution:
         while left < right:
             mid = left + (right - left) // 2              
             if nums[mid] == nums[mid-1]:
-                if (mid - left) % 2 == 0:
+                if (right - mid) % 2 == 0:
                     right = mid - 2
                 else:
                     left = mid + 1
