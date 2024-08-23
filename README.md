@@ -7,6 +7,7 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0137-single-number-ii](https://github.com/shuklaritvik06/leetcode/tree/master/0137-single-number-ii) |
+| [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shuklaritvik06/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 ## Binary Search
 |  |
@@ -16,4 +17,12 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0137-single-number-ii](https://github.com/shuklaritvik06/leetcode/tree/master/0137-single-number-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
