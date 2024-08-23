@@ -23,6 +23,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/shuklaritvik06/leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shuklaritvik06/leetcode/tree/master/0242-valid-anagram) |
@@ -40,6 +41,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/shuklaritvik06/leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/shuklaritvik06/leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/shuklaritvik06/leetcode/tree/master/0451-sort-characters-by-frequency) |
@@ -69,4 +71,8 @@ Leetcode Questions that I solved using LEETHUB!
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/shuklaritvik06/leetcode/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
