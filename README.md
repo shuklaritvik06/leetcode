@@ -7,6 +7,7 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/shuklaritvik06/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/shuklaritvik06/leetcode/tree/master/0137-single-number-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
@@ -25,6 +26,7 @@ Leetcode Questions that I solved using LEETHUB!
 | ------- |
 | [0013-roman-to-integer](https://github.com/shuklaritvik06/leetcode/tree/master/0013-roman-to-integer) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
+| [0128-longest-consecutive-sequence](https://github.com/shuklaritvik06/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/shuklaritvik06/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -76,4 +78,8 @@ Leetcode Questions that I solved using LEETHUB!
 | ------- |
 | [0009-palindrome-number](https://github.com/shuklaritvik06/leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/shuklaritvik06/leetcode/tree/master/0013-roman-to-integer) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shuklaritvik06/leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
