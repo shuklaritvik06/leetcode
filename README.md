@@ -6,6 +6,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/shuklaritvik06/leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/shuklaritvik06/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0137-single-number-ii](https://github.com/shuklaritvik06/leetcode/tree/master/0137-single-number-ii) |
@@ -26,6 +27,7 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/shuklaritvik06/leetcode/tree/master/0013-roman-to-integer) |
+| [0036-valid-sudoku](https://github.com/shuklaritvik06/leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/shuklaritvik06/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
@@ -87,4 +89,8 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/shuklaritvik06/leetcode/tree/master/0238-product-of-array-except-self) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/shuklaritvik06/leetcode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
