@@ -6,6 +6,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/shuklaritvik06/leetcode/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/shuklaritvik06/leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/shuklaritvik06/leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -37,6 +38,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/shuklaritvik06/leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shuklaritvik06/leetcode/tree/master/0217-contains-duplicate) |
@@ -93,4 +95,8 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/shuklaritvik06/leetcode/tree/master/0036-valid-sudoku) |
+## Two Pointers
+|  |
+| ------- |
+| [0015-3sum](https://github.com/shuklaritvik06/leetcode/tree/master/0015-3sum) |
 <!---LeetCode Topics End-->
