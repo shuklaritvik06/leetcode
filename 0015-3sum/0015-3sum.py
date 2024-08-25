@@ -8,16 +8,14 @@ class Solution:
             j = i+1
             k = len(nums)-1
             while j < k:
-                total = nums[i] + nums[j] + nums[k]
-
+                total = nums[i]+nums[j]+nums[k]
                 if total > 0:
-                    k -= 1
+                    k = k - 1
                 elif total < 0:
-                    j += 1
+                    j = j + 1
                 else:
                     res.append([nums[i], nums[j], nums[k]])
-                    j += 1
-
-                    while nums[j] == nums[j-1] and j < k:
-                        j += 1
+                    j = j+1
+                    while nums[j] == nums[j-1] and j<k:
+                        j = j + 1
         return res
