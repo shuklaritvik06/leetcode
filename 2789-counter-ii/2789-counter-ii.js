@@ -4,20 +4,10 @@
  */
 var createCounter = function(init) {
     original = init
-    current = original
     return {
-        increment: ()=>{
-            current = current+1
-            return current
-        },
-        decrement: ()=>{
-            current = current-1
-            return current
-        },
-        reset: ()=>{
-            current = original
-            return current
-        }
+        increment: ()=>++original,
+        decrement: ()=>--original,
+        reset: ()=>original = init
     }
 };
 
