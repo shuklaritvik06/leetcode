@@ -1,5 +1,5 @@
 var TimeLimitedCache = function () {
-    this.cache = {}
+    this.cache = new Map();
 };
 
 /** 
@@ -10,15 +10,18 @@ var TimeLimitedCache = function () {
  */
 TimeLimitedCache.prototype.set = function (key, value, duration) {
     let flag = false;
-    if (this.cache[key]) {
+
+    if (this.cache.has(key)) {
         flag = true;
-        const prev_entry = this.cache[key];
+        const prev_entry = this.cache.get(key);
         clearTimeout(prev_entry[1]);
     }
+
     const timeout = setTimeout(() => {
-        delete this.cache[key];
+        this.cache.delete(key);
     }, duration);
-    this.cache[key] = [value, timeout]
+
+    this.cache.set(key, [value, timeout]);
     return flag;
 };
 
@@ -27,16 +30,15 @@ TimeLimitedCache.prototype.set = function (key, value, duration) {
  * @return {number} value associated with key
  */
 TimeLimitedCache.prototype.get = function (key) {
-    if (this.cache[key]) {
-        return this.cache[key][0]
+    if (this.cache.has(key)) {
+        return this.cache.get(key)[0];
     }
-    return -1
+    return -1;
 };
 
 /** 
  * @return {number} count of non-expired keys
  */
 TimeLimitedCache.prototype.count = function () {
-    return Object.keys(this.cache).length
+    return this.cache.size;
 };
-
