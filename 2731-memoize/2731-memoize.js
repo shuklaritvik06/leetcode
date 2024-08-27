@@ -3,15 +3,15 @@
  * @return {Function}
  */
 function memoize(fn) {
-    value_map = {}
+    const map = new Map();
     return function(...args) {
         let key = args.toString()
-        if(value_map[key]===undefined){
+        if(!map.has(key)){
             output = fn(...args)
-            value_map[key] = output
+            map.set(key,output)
             return output
         }
-        return value_map[key]
+        return map.get(key)
     }
 }
 
