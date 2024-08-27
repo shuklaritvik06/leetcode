@@ -6,14 +6,10 @@
 var timeLimit = function (fn, t) {
     return async function (...args) {
         return new Promise((resolve, reject) => {
-            const timeout = setTimeout(() => {
+            setTimeout(() => {
                 reject("Time Limit Exceeded");
             }, t);
-
-            Promise.resolve(fn(...args))
-                .then(resolve)
-                .catch(reject)
-                .finally(() => clearTimeout(timeout));
+            fn(...args).then(resolve).catch(reject)
         });
     };
 };
