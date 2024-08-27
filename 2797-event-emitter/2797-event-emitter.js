@@ -4,12 +4,19 @@ class EventEmitter {
      * @param {Function} callback
      * @return {Object}
      */
-    subscriptions = [];
+    constructor() {
+        this.events = new Map()
+    }
     subscribe(eventName, callback) {
-        this.subscriptions.push({ eventName, callback });
+        if (!this.events.has(eventName)) {
+            this.events.set(eventName, [])
+        }
+        const listeners = this.events.get(eventName)
+        listeners.push(callback)
         return {
             unsubscribe: () => {
-                this.subscriptions = this.subscriptions.filter((item) => item.callback !== callback);
+                const index = listeners.indexOf(callback)
+                listeners.splice(index, 1)
             }
         };
     }
@@ -20,9 +27,10 @@ class EventEmitter {
      * @return {Array}
      */
     emit(eventName, args = []) {
-        let isMatch = this.subscriptions.filter((item) => item.eventName === eventName);
-        if (isMatch) {
-            return isMatch.map((item) => item.callback(...args));
+        const listeners = this.events.get(eventName)
+        if(listeners){
+            return listeners.map((cb) => cb(...args));
         }
+        return []
     }
 }
