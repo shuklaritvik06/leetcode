@@ -17,6 +17,7 @@ Leetcode Questions that I solved using LEETHUB!
 | [0238-product-of-array-except-self](https://github.com/shuklaritvik06/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shuklaritvik06/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [2727-number-of-senior-citizens](https://github.com/shuklaritvik06/leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
 | ------- |
@@ -54,6 +55,7 @@ Leetcode Questions that I solved using LEETHUB!
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/shuklaritvik06/leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/shuklaritvik06/leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [2727-number-of-senior-citizens](https://github.com/shuklaritvik06/leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Divide and Conquer
 |  |
 | ------- |
