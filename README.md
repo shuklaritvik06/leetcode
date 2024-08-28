@@ -18,6 +18,7 @@ Leetcode Questions that I solved using LEETHUB!
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shuklaritvik06/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/shuklaritvik06/leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/shuklaritvik06/leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Binary Search
 |  |
@@ -39,6 +40,7 @@ Leetcode Questions that I solved using LEETHUB!
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/shuklaritvik06/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/shuklaritvik06/leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Sorting
 |  |
 | ------- |
@@ -58,6 +60,7 @@ Leetcode Questions that I solved using LEETHUB!
 | [0049-group-anagrams](https://github.com/shuklaritvik06/leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/shuklaritvik06/leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/shuklaritvik06/leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/shuklaritvik06/leetcode/tree/master/2727-number-of-senior-citizens) |
 ## Divide and Conquer
 |  |
@@ -80,6 +83,7 @@ Leetcode Questions that I solved using LEETHUB!
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/shuklaritvik06/leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Quickselect
 |  |
 | ------- |
