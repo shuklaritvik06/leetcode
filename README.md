@@ -6,6 +6,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/shuklaritvik06/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/shuklaritvik06/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/shuklaritvik06/leetcode/tree/master/0016-3sum-closest) |
 | [0036-valid-sudoku](https://github.com/shuklaritvik06/leetcode/tree/master/0036-valid-sudoku) |
@@ -23,6 +24,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/shuklaritvik06/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shuklaritvik06/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 ## Bit Manipulation
 |  |
@@ -65,6 +67,7 @@ Leetcode Questions that I solved using LEETHUB!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/shuklaritvik06/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shuklaritvik06/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/shuklaritvik06/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
