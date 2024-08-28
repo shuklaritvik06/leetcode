@@ -103,10 +103,12 @@ Leetcode Questions that I solved using LEETHUB!
 | ------- |
 | [0015-3sum](https://github.com/shuklaritvik06/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/shuklaritvik06/leetcode/tree/master/0016-3sum-closest) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/shuklaritvik06/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 ## Linked List
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shuklaritvik06/leetcode/tree/master/0002-add-two-numbers) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/shuklaritvik06/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0024-swap-nodes-in-pairs](https://github.com/shuklaritvik06/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 ## Recursion
 |  |
