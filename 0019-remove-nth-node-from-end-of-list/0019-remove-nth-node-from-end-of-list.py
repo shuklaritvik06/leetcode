@@ -10,14 +10,12 @@ class Solution:
             return head.next
         index = size - n
         counter = 0
-        dummy = ListNode(0)
-        dummy.next = head
         curr = head
         while counter < index-1:
             curr = curr.next
             counter += 1
         curr.next = curr.next.next
-        return dummy.next
+        return head
 
     def size(self, head):
         temp = head
