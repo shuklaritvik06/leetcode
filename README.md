@@ -107,8 +107,10 @@ Leetcode Questions that I solved using LEETHUB!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shuklaritvik06/leetcode/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/shuklaritvik06/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 ## Recursion
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shuklaritvik06/leetcode/tree/master/0002-add-two-numbers) |
+| [0024-swap-nodes-in-pairs](https://github.com/shuklaritvik06/leetcode/tree/master/0024-swap-nodes-in-pairs) |
 <!---LeetCode Topics End-->
